@@ -1,5 +1,5 @@
 #修改TNAME: PSG1218 中的PSG1218为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同
-name: Build Padavan
+name: Build Padavan-PSG1218
 
 on: 
   release:
@@ -102,5 +102,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: Padavan-PSG1218
         path: /opt/images
